@@ -169,6 +169,20 @@ export default function QuizPage() {
               Back to Home
             </Link>
           </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-600 mb-2">
+              Need help? Please text only, no calls
+            </p>
+            <a
+              href="https://wa.me/917994366611"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-600 hover:text-gray-800"
+            >
+              +91 7994366611 (WhatsApp)
+            </a>
+          </div>
         </div>
       </div>
     );
@@ -206,6 +220,20 @@ export default function QuizPage() {
               <FaHome className="w-4 h-4 mr-2" />
               Back to Home
             </Link>
+          </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-600 mb-2">
+              Need help? Please text only, no calls
+            </p>
+            <a
+              href="https://wa.me/917994366611"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-600 hover:text-gray-800"
+            >
+              +91 7994366611 (WhatsApp)
+            </a>
           </div>
         </div>
       </div>
@@ -258,6 +286,20 @@ export default function QuizPage() {
               Back to Home
             </Link>
           </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-600 mb-2">
+              Need help? Please text only, no calls
+            </p>
+            <a
+              href="https://wa.me/917994366611"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-600 hover:text-gray-800"
+            >
+              +91 7994366611 (WhatsApp)
+            </a>
+          </div>
         </div>
       </div>
     );
@@ -283,6 +325,20 @@ export default function QuizPage() {
               Back to Home
             </Link>
           </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-600 mb-2">
+              Need help? Please text only, no calls
+            </p>
+            <a
+              href="https://wa.me/917994366611"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-600 hover:text-gray-800"
+            >
+              +91 7994366611 (WhatsApp)
+            </a>
+          </div>
         </div>
       </div>
     );
@@ -307,7 +363,7 @@ export default function QuizPage() {
       return remainingDays > 0
         ? `${plural(totalMonths, "month")}, ${plural(
             remainingDays,
-            "day"
+            "day",
           )} remaining`
         : `${plural(totalMonths, "month")} remaining`;
     }
@@ -381,7 +437,7 @@ export default function QuizPage() {
                   onClick={() =>
                     localStorage.setItem(
                       "redirectAfterLogin",
-                      window.location.href
+                      window.location.href,
                     )
                   }
                   className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
@@ -528,7 +584,7 @@ export default function QuizPage() {
                   onClick={() => {
                     localStorage.setItem(
                       "redirectAfterLogin",
-                      window.location.href
+                      window.location.href,
                     );
                     router.push("/auth");
                   }}
@@ -545,6 +601,20 @@ export default function QuizPage() {
               >
                 Back to Home
               </Link>
+            </div>
+
+            <div className="mt-6 text-center">
+              <p className="text-sm text-gray-600 mb-2">
+                Need help? Please text only, no calls
+              </p>
+              <a
+                href="https://wa.me/917994366611"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-600 hover:text-gray-800"
+              >
+                +91 7994366611 (WhatsApp)
+              </a>
             </div>
           </div>
         </div>
